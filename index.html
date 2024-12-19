@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Scrabble-Like Demo</title>
+  <!-- Style Sheet -->
+  <link rel="stylesheet" href="style.css"/>
+  <!-- jQuery and jQuery UI -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+</head>
+<body>
+  <header>
+    <div class="title">Scrabble-Like Demo</div>
+  </header>
+
+  <div class="game-container">
+    <!-- Scrabble Board -->
+    <div class="board-container">
+      <div class="scrabble-board">
+        <!-- Board cells will be dynamically generated -->
+      </div>
+
+      <!-- Player Rack -->
+      <div class="player-rack">
+        <!-- Tiles will be dynamically generated -->
+      </div>
+
+      <!-- Controls -->
+      <div class="controls">
+        <button id="reset-button">Restart</button>
+        <button id="next-button">Next</button>
+      </div>      
+      
+    </div>
+
+    <!-- Sidebar for Score and Remaining Tiles -->
+    <div class="sidebar">
+      <div class="scoreboard">
+        <h3>Your Score</h3>
+        <p>0</p>
+      </div>
+      <div class="remaining-tiles">
+        <h3>Remaining Tiles</h3>
+        <p id="remaining-count">-</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js" defer></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
